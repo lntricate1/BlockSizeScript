@@ -85,6 +85,6 @@ block_size(x, y, z, pixels, precision, invert) ->
         if(invert, h += pixels - n, h += n));
       modify(_, 'remove')
     );
-    print(player, 'Sylklos: ' + str(sort(keys(h))));
+    print(player, 'Bottom: ' + str(sort(keys(h))));
   ));
 )
