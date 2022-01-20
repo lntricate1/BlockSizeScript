@@ -2,7 +2,7 @@ __config()->
 {
   'commands' ->
   {
-    '' -> _() -> print(player(), 'Block Size app by Enbyd and lntricate\; Syntax: /blockSize x y z [pixels per block] [sizes per pixel] [invert?]'),
+    '' -> _() -> print(player(), 'Block Size app by enbyd and lntricate\; Syntax: /blockSize x y z [pixels per block] [sizes per pixel] [invert?]'),
     '<pos>' -> _(pos) -> block_size(pos:0, pos:1, pos:2, 16, 4, false),
     '<pos> <px> <precision>' -> _(pos, px, precision) -> block_size(pos:0, pos:1, pos:2, px, precision, false),
     '<pos> <px> <precision> <invert>' -> _(pos, px, precision, invert) -> block_size(pos:0, pos:1, pos:2, px, precision, invert)
